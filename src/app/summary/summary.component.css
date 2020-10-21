@@ -1,7 +1,33 @@
 .summary {
-    width: 300px;
-    margin: 0 auto;
+    width: 400px;
+    float: left;
+    margin: 2px;
     background-color: pink;
     text-align: center;
     border-radius: 5px;
+}
+
+.title {
+    background: skyblue;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 10px;
+    text-shadow: 5px 3px 1px green;
+    border-bottom: dotted white 3px;
+}
+
+.data-blocks {
+    background: wheat;
+    padding: 10px;
+    margin: 3px;
+}
+
+.data-blocks-title {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.data-blocks-value {
+    color: red;
+    font-size: 17px;
 }
